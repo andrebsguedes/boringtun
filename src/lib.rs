@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: BSD-3-Clause
 
 /// Simple implementation of the client side of the WireGuard protocol
+mod device;
 pub mod crypto;
 pub mod ffi;
 pub use self::device;
